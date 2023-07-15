@@ -1,4 +1,4 @@
-# CR3dTile-Tools
+# CR 3D Tile Processing Tools
 Tools developed for manipulating 3DTile datasets
 
 
