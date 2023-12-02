@@ -25,6 +25,9 @@ The code will scan the folder you specified recursively looking for .b3dm files 
 ## compress-webp
 When geo-tiff files are converted to tiled format, png files are generate. However png files lack visual data compression and the resulting files are large which in turn make the means large datasets need to be transferred over the web (longer wait times to load tiles)
 
+**Dependencies**
+Need to have installed imagemagick, webp and parallel (to allow bash to run multithreaded processes) 
+
 **Usage**
 `./compress-webp.sh <source_folder> <destination_folder>`
 
